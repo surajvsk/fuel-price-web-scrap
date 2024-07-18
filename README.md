@@ -21,7 +21,7 @@ Before you begin, ensure you have the following installed on your local machine:
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/fuel-price-scraper.git
+    git clone https://github.com/surajvsk/fuel-price-scraper.git
     cd fuel-price-scraper
     ```
 
@@ -38,7 +38,7 @@ Before you begin, ensure you have the following installed on your local machine:
 1. Run the script to scrape petrol prices:
 
     ```sh
-    node script.js
+    node server.js
     ```
 
 2. The script will fetch the latest petrol prices from the NDTV website and log the data in the console.
@@ -48,7 +48,7 @@ Before you begin, ensure you have the following installed on your local machine:
 1. Run the script to scrape diesel prices:
 
     ```sh
-    node script.js
+    node server.js
     ```
 
 2. The script will fetch the latest diesel prices from the NDTV website and log the data in the console.
@@ -58,7 +58,7 @@ Before you begin, ensure you have the following installed on your local machine:
 1. Run the script to scrape CNG prices:
 
     ```sh
-    node script.js
+    node server.js
     ```
 
 2. The script will make multiple API calls to fetch the latest CNG prices and save the responses to an HTML file.
